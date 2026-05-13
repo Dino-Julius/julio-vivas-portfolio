@@ -1,0 +1,84 @@
+.about-container {
+    display: grid;
+    justify-items: center;
+}
+
+.about-profile {
+    width: min(820px, 100%);
+}
+
+.profile-info {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.profile-info h1 {
+    margin: 8px 0 14px;
+    font-size: clamp(2.55rem, 6vw, 5.2rem);
+    letter-spacing: 0;
+}
+
+.profile-info h3 {
+    max-width: 720px;
+    color: var(--text-secondary);
+    font-size: clamp(1.05rem, 2vw, 1.45rem);
+    font-weight: 560;
+    line-height: 1.35;
+}
+
+.location {
+    color: var(--accent);
+    font-size: 0.9rem;
+    font-weight: 750;
+    text-transform: uppercase;
+}
+
+.about-description {
+    display: grid;
+    gap: 14px;
+    max-width: 760px;
+    margin-top: 26px;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.download-resume-btn,
+.secondary-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 0 17px;
+    border-radius: 999px;
+    font-weight: 750;
+}
+
+.download-resume-btn {
+    background: var(--text-header);
+    color: var(--bg-secondary);
+}
+
+.download-resume-btn:hover {
+    color: var(--bg-secondary);
+    background: var(--accent);
+}
+
+.secondary-action {
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+}
+
+.secondary-action:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}

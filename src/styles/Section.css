@@ -1,0 +1,26 @@
+.section-container {
+    width: 100%;
+}
+
+.section-title {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 28px;
+    color: var(--accent);
+    font-size: 0.82rem;
+    font-weight: 750;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.section-title::before {
+    content: "";
+    width: 34px;
+    height: 1px;
+    margin-right: 12px;
+    background: var(--accent);
+}
+
+.section-content {
+    width: 100%;
+}
